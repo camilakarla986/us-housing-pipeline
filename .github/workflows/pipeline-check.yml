@@ -1,0 +1,16 @@
+name: Housing Pipeline Health Check
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * 1"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Cloudflare database
+        run: |
+          curl --fail --show-error \
+            https://us-housing-pipeline.us-housing-data-2026.workers.dev/

@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "wrangler": "^4.166.0"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.3"
+  }
+}

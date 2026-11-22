@@ -1,0 +1,12 @@
+{
+  "name": "us-housing-pipeline",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-20",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "data-engineering-pipeline",
+      "database_id": "c6c2c8a2-39fd-404b-b69e-e16f5b9320da"
+    }
+  ]
+}
